@@ -1,5 +1,5 @@
 # Site
-name: "Mediumish"
+name: "Eduvisa Blog"
 title: "Mediumish"
 description: "Jekyll template, Medium styled, free for bloggers."
 logo: 'assets/images/logo.png'
@@ -21,7 +21,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
 # Archives
 jekyll-archives:
   enabled:
@@ -29,11 +29,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
-# Pagination 
+
+# Pagination
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 
