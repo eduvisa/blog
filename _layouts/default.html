@@ -45,14 +45,14 @@
 <body class="{{layout}}">
   <!-- defer loading of font and font awesome -->
   <noscript id="deferred-styles">
-    <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </noscript>
 
 
   <!-- Begin Menu Navigation
 ================================================== -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top mediumnavigation nav-down" id="TopNavbar">
 
     <div class="container pr-0">
 
@@ -81,23 +81,25 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+            <a class="nav-link" target="_blank" href="https://myeduvisa.org/">
+              <i class="fas fa-home"></i>
+
+              Home Page</a>
           </li>
 
           <li class="nav-item">
-            <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
+            <a class="nav-link" target="_blank" href="https://discord.gg/ZnMKDKQ">
+              <i class="fab fa-discord fa-fw"></i>
+              Discord
+            </a>
           </li>
 
           <li class="nav-item">
-            <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
+            <a class="nav-link" target="_blank" href="https://myeduvisa.org/#get-involved">Join Our Team!</a>
           </li>
 
           <li class="nav-item">
-            <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
-          </li>
-
-          <li class="nav-item">
-            <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
+            <a class="nav-link" target="_blank" href="">Initiatives</a>
           </li>
 
           {% include search-lunr.html %}

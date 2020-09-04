@@ -8,6 +8,25 @@
 	display:inline;
 }
 
+// Update styling to be more like front page
+body {
+	background-color: #960B23;
+	color: #fff;
+}
+
+a .nav-link {
+	color: #fff;
+}
+#TopNavbar {
+	background-color: #960B23;
+}
+
+.lead {
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"syntax",
