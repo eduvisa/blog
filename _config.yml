@@ -2,7 +2,7 @@
 name: "Eduvisa Blog"
 title: "Mediumish"
 description: "The Passport to Your Future!"
-logo: 'assets/images/logo.png'
+logo: 'assets/images/logo_trim.png'
 favicon: 'assets/images/logo.png'
 baseurl: '/blog'
 google_analytics: 'UA-46278016-1'
