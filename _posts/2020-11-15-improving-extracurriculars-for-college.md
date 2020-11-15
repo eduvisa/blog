@@ -47,4 +47,4 @@ During junior and senior year, focus on increasing your impact. If you don't hav
 
 There will be a coming blog post on this in the future, but for now, some general tips include making sure you quantify each activity, e.g. "I organized 100+ members for a community fun run" instead of "I organized a fun run," and asking club leaders about anything you might be missing in your extracurriculars section. These will be discussed in a full article soon---stay tuned!
 
-**Wish you had more time for things you love? Check out our post on time management: [title link].**
+**Wish you had more time for things you love? Check out [our post on time management](/blog/the-importance-of-time-management/).**

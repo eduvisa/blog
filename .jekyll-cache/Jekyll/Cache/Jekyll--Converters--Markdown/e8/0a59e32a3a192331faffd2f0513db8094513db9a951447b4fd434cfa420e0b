@@ -1,0 +1,150 @@
+I"72<p>Ah, our good ol’ friend, the calculator. Whether loading some dubious games at home onto your TI-84 or making sure you haven’t lost your grasp on reality by punching in 2 + 2, your calculator has always been there to support you every step of the way. Sometimes, though, you might wonder at the exceptional amount of complexity stored into a (relatively) small device - how does it fit that admittedly shoddy but playable Tetris game into that medley of wires and electronic circuits? How can it tell me what 1/(7 * sqrt(2pi)) * e^(-0.5 * (x - 3) / 7)^2 is in a matter of milliseconds? To answer these questions and many other curiosities regarding our humble calculator, let us dive deep into its mechanics.</p>
+
+<h2 id="whats-in-a-calculator">What’s In a Calculator?</h2>
+
+<p>To first analyze the underlying workings of the calculator, we must dissect and understand its components. You can’t have anything electronic without a source of power, including calculators. Generally speaking, your more basic pocket calculators will run on a few cell batteries supplemented by a few solar cells, while your more advanced scientific calculators, like your TI-84s and TI-Nspires, will require several cell batteries or even the charge of an adapter. Perhaps the next most important component would be the keypad of a calculator, an array of rubber or plastic keys with various numbers or commands inscribed on them. When you press on a key, the circuit underneath it is completed, thus sending an electrical signal through the circuit board.</p>
+
+<p><img src="http://wiki.sunfounder.cc/images/f/f9/Keypad_schematic.png" alt="A circuit diagram of a keypad." />
+(The upside-down T shape objects representing the individual keys.)
+	Your calculation is displayed through the topmost panel, which is generally an LCD display.</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/LCDneg.jpg/1280px-LCDneg.jpg" alt="" />
+(A Texas Instruments calculator with the underlying LCD electrode shapes being revealed.)</p>
+
+<p>Last but not least, the tiny but ever-powerful microprocessor temporarily stores the digits and various operations inside a register, converts the resulting binary output into a decimal representation, and shoots the result to the LCD. Other programmable devices, like your laptop, phone, or desktop, also have microprocessors - all on a small little chip.</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Zilog_Z80.jpg" alt="" />
+A Zilog Z80, the TI-84’s microprocessor. Manufactured in June 1976.</p>
+
+<p>But what’s a microprocessor made of? To put it simply, it’s a CPU all etched on a tiny integrated circuit - a set of electronic components that are etched into a thin layer of silicon - thus creating a tiny “chip” that can do a ton of calculations in a blink of an eye. The most important component of said circuit is perhaps the transistor - a revolutionary electronic invention that has radically changed the world of electronics.</p>
+
+<h2 id="transistors-and-digital-systems">Transistors and Digital Systems</h2>
+<p>But why exactly are transistors so crucial to digital systems and electronics as a whole? Well, to find out, we must understand what exactly a transistor does - take a look at this small visual:
+<img src="https://i.ibb.co/HzqQwTX/transistor.png" alt="" />
+You can imagine transistors as small gates that control the flow of electricity, with the presence of water being a “1” in the binary world with an absence being a “0”. Naturally, this allows for digital engineers to design convoluted systems with boolean logic, allowing them to encode in boolean logic that can be utilized to create logic gates that can perform Boolean operations, such as AND, OR, NOT, NAND, NOR, XOR, and XNOR. All of these gates are used extensively to construct impressively massive but simple digital circuits that help power our day-to-day lives, one of them being the humble calculator. In the past, engineers used hardware such as vacuum tubes or relays to represent these logical gates. However, these components were relatively large, energy-intensive, and prone to burning out rather swiftly. On the other hand, transistors are tiny, energy-efficient, and far more durable than their logical brethren.</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Elektronenroehren-auswahl.jpg/640px-Elektronenroehren-auswahl.jpg" alt="" />
+Vacuum tubes of various sizes.</p>
+
+<h2 id="logic-gates-and-binary-arithmetic">Logic Gates and Binary Arithmetic</h2>
+<p>When you press the “3” button on your calculator, it interprets the input in binary as “11”. When the calculator finishes its calculations, it converts the final binary answer back into the decimal format - the number system that we use on a day-to-day basis. Now, let’s take a look at the underlying logic gates that help the calculator churn out these results. Note that a 0 usually represents a “low” voltage and a 1 represents a “high” voltage.</p>
+
+<p><em>AND Gate</em> 
+The AND gate takes in two or more arguments and returns a 1 if all of its inputs are 1s.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/AND_ANSI.svg/100px-AND_ANSI.svg.png" alt="" /></p>
+
+<p>An AND symbol.
+<em>OR Gate</em>
+The OR gate is a little more generous - it’ll give us a “high”(usually denoted by a 1) output if 1 or more of its outputs is also high.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/OR_ANSI_Labelled.svg/259px-OR_ANSI_Labelled.svg.png" alt="" />
+An OR symbol.</p>
+
+<p><em>NOT Gate</em>
+The NOT gate, as you might’ve guessed, just provides us with the inverted input - if you throw in a 0, you’ll get a 1. Shoot in a 1, you’ll get a 0.</p>
+
+<p><em>NAND and NOR Gates</em>
+The NAND and NOR gates are just the opposite versions of their respective counterparts. You might notice that their symbolic representations have a circle at the output - that denotes that the output is being “inverted.”
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/NAND_ANSI_Labelled.svg/120px-NAND_ANSI_Labelled.svg.png" alt="" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/NOR_ANSI_Labelled.svg/120px-NOR_ANSI_Labelled.svg.png" alt="" />
+The NAND(top) and NOR(bottom) symbols.</p>
+
+<p><em>XOR and XNOR Gates</em>
+The XOR gate represents an “exclusive or” gate, which returns a “high” result only when the two inputs are different. As one might have realized by now, the XNOR gate simply returns the opposite of the XOR gate.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/XOR_ANSI.svg/100px-XOR_ANSI.svg.png" alt="" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/XNOR_ANSI_Labelled.svg/120px-XNOR_ANSI_Labelled.svg.png" alt="" />
+The XOR(top) and XNOR(bottom) symbols. 
+Before we spend some time on how these logic gates are utilized in a calculator’s microprocessor’s arithmetic, let’s make sure we’re on the same page with regards to binary arithmetic.</p>
+
+<h2 id="the-binary-number-system">The Binary Number System</h2>
+
+<p>We live in a base-10 number system - i.e, the system that we use on a day-to-day basis for denoting numbers with 10 digits. However, in the binary(or base-2 number system), only 0s and 1s are used. So how do we add “up” in binary? Simple:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Binary</th>
+      <th style="text-align: left">Digital</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10</td>
+      <td style="text-align: left">2 (as with the base-10 world, when we run out of digits, we start at 0 again, but add “1” to the left.)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11</td>
+      <td style="text-align: left">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">100</td>
+      <td style="text-align: left">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">101</td>
+      <td style="text-align: left">5</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>As can be seen, as a number moves to the right in a binary number, each digit represents a value two times higher than the one to the left.</p>
+
+<p><strong><em>Addition</em></strong></p>
+
+<p>Binary addition works in just the same way as normal addition, except that we carry when we get a value of 2 instead of a 10.</p>
+
+<p>Hence, we have in binary:</p>
+
+<p>0 + 0 = 00 <br />
+0 + 1 = 01 <br />
+1 + 0 = 01 <br />
+1 + 1 = 10 (we carry on a 2 and add 1 to the left. Hence we get “10”.)</p>
+
+<p><strong><em>Subtraction</em></strong></p>
+
+<p>Subtraction is just reversed addition, but we borrow(as we do in normal subtraction). Hence, we have:</p>
+
+<p>0 - 0 = 0 <br />
+1 - 0 = 1 <br />
+0 - 1 = 1 (borrow 1 from the next digit) <br />
+1 - 1 = 0</p>
+
+<p>The adder circuit adds two bits(i.e, single-digit binary numbers). You’ll see that it’s remarkably similar to the XOR gate - when we smash together 1 and 1, we do indeed get 0, but without the carry digit.
+So what’s another logic gate is necessary to represent the carry digit, if it exists? Let us momentarily read out the results:</p>
+
+<p>Results of Binary Addition <br />
+<strong>__</strong><strong>__</strong><strong>__</strong>__ <br />
+0 + 0 = 00 <br />
+0 + 1 = 01 <br />
+1 + 0 = 01 <br />
+1 + 1 = 10 <br />
+<strong>__</strong><strong>__</strong><strong>__</strong>_</p>
+
+<p>Note that the carry digit matches the AND gate, bit-for-bit! So that must imply that we have to use an AND gate alongside an XOR gate to receive a result for addition. Indeed, that much is true, and this is what the circuit looks like:</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Half_Adder.svg/220px-Half_Adder.svg.png" alt="" />
+A <em>half-adder circuit.</em> It is named as such because you can never get “11” from a half circuit, which makes it, well, half-complete.</p>
+
+<p>So how do we complete the half-adder circuit? Well, by making it a full adder by connecting two half-adders like below:
+<img src="https://i.ibb.co/PMKfJ89/addah.png" alt="" />
+By slapping any number of adders together, we can add any number of bits in a ripple carry adder.
+<img src="https://i.ibb.co/XYKJcwf/4ADDAHS.png" alt="" />
+(In here, we’re using 4 adders, so we can add together two 4-digit binary numbers).</p>
+
+<p>However, there are several flaws regarding a ripple carry adder - the biggest one being that the other adders have to wait for the adders before it to supply in a carry for them to being calculating their own sum and carry bit, and this “lag” grows exponentially as we have more and more adders. Ouch. Not exactly the kind of speed we want for simple addition and multiplication.</p>
+
+<p>Hence, the <em>carry look-ahead</em> adder was patented in 1957 by IBM(though anticipated several centuries earlier by Charles Babbage, the inventor of the idea of the first digital computer). The carry look-ahead adder essentially assigns the task of determining carries and carry calculations to a different circuit, which serves the results of its carries to each digit’s adder. The resulting circuit is a lot more sophisticated than its simpler brother, the ripple-carry adder, but it slices off a  lot of time that would otherwise be spent waiting for the previous adders.</p>
+
+<p>The multiplication, division, and exponentiation circuits are more intricate orders of magnitudes, but the individual logic gates are still utilized throughout the process -  for example, multiplication can be implemented like how a grade-schooler would; all you need to do is add the partial sums resulting from the individual multiplications, and it is even simpler than regular multiplication. After all, each partial sum in the binary world is merely the shifted version of the multiplicand or just a bunch of 0s. Hence, you might apply a bunch of AND circuits to copy the 1s and 0s over, or use a combination of NAND and OR circuits to return all 0s. 
+<img src="https://i.ibb.co/pxJbpVv/icanmultiply.png" alt="" />
+Hopefully, you’ve gained a greater understanding(and a greater appreciation) of the seemingly basic work that your lonely TI-84 or your more basic 4-function calculator can do for you in a matter of milliseconds. Make sure your calculator is fully charged and, to prevent losing it, always put your precious calculator back in its case.</p>
+
+<p><strong>If you enjoyed this article and want to learn more about how to get things done, check out our <a href="blog/minimizing-procrastination-to-get-more-done/">article on minimizing procrastination</a>.</strong></p>
+:ET

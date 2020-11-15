@@ -2,7 +2,7 @@
 layout: post
 title:  "Minimizing Procrastination to Get More Done"
 author: akilan
-categories: [ Productivity, Extracurriculars ]
+categories: [ Productivity ]
 image: assets/images/minimizing-procrastination-to-get-more-done.png
 featured: false
 hidden: false
@@ -31,10 +31,10 @@ Setting rewards for yourself after completing parts of a task is also an effecti
 Procrastination is an enormous problem that humans have been facing since the creation of civilization itself. However, scientific research has led to insightful findings on techniques to avoid it. Whether we will take advantage of this research is up to us. 
 
 
-Want to learn more about how you can make more time for things that really matter? Check out our [article on time management](). 
+**Want to learn more about how you can make more time for things that really matter? Check out our [article on time management](/blog/the-importance-of-time-management/).**
 
 ##### Works Cited
-https://blogs.unimelb.edu.au/sciencecommunication/2018/10/21/blame-your-lazy-brain-for-always-putting-things-off/#:~:text=Procrastination%20is%20the%20action%20of,off%20the%20more%20important%20ones.&text=In%20700%20B.C.%2C%20an%20ancient,%2C%20%E2%80%9CWork%20and%20Days%E2%80%9D
+https://blogs.unimelb.edu.au/sciencecommunication/2018/10/21/blame-your-lazy-brain-for-always-putting-things-off/
 
 https://studiemetro.auinstallation29.cs.au.dk/fileadmin/www.studiemetro.au.dk/Procrastination_2.pdf
 

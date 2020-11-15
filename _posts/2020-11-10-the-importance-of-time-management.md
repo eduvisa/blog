@@ -4,8 +4,8 @@ title:  "The Importance of Time Management"
 author: ansh
 categories: [ How It Works, Productivity, Learn Something New ]
 image: assets/images/the-importance-of-time-management.jpg
-featured: false
-hidden: false
+featured: true
+hidden: true
 ---
 Didn’t finish your work as planned? That happens to me too! It’s likely due to a lack of effective time management. Time management is the process of organizing and planning to divide time between specific activities. If you cannot correctly manage your time, you’ll fail in many everyday tasks. Even though we all have the same 24 hours in a day, some people achieve more, mainly due to more effective management of their time. It might seem counterintuitive or cumbersome to plan daily activities out, but it’s worth it. 
 
