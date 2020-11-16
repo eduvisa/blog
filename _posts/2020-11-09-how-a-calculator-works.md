@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How a Calculator Works?"
+title:  "How a Calculator Works"
 author: briant
 categories: [ How It Works, Productivity, Learn Something New ]
 image: assets/images/how-a-calculator-works.jpg

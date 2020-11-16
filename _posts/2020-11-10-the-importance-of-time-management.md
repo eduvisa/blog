@@ -37,3 +37,5 @@ The first step in proper time management is analyzing how you currently spend yo
 One of the most important tips is making a proper schedule with daily activities marked out, which you can follow throughout the day, along with a checklist. Keep an eye on your list and keep checking off completed tasks. You also want to prioritize the most important work to get the most urgent, pressing tasks done first. Not only is completing your work important, but taking proper rest is also important. This again involves time management. If you manage your time properly, you will be able to devote sufficient time to your sleep, maintaining a stabilized circadian rhythm, which will improve almost every other aspect of your life. 
 
 If you take these steps to better time management, and truly apply them each day, you’ll be well on the road to becoming hyperproductive. If they worked for you, contact me (Ansh) and let me know which ones you used and how they worked! You can find my info below.
+
+**If you want to get more done during the day and stop procrastinating, check out [our article on minimizing procrastination](/blog/minimizing-procrastination-to-get-more-done).**
