@@ -4,8 +4,8 @@ title:  "COVID-19 Schooling and Mental Health"
 # author: sal
 categories: [ Jekyll, tutorial ]
 image: assets/images/2020-10-03-covid-19-schooling-mental-health_white.jpeg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 By: Amy Tan, Crystal Widado, Ciara Balanza
