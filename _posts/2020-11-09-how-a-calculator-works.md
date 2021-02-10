@@ -131,4 +131,4 @@ The multiplication, division, and exponentiation circuits are more intricate ord
 ![](https://i.ibb.co/pxJbpVv/icanmultiply.png)
 Hopefully, you’ve gained a greater understanding(and a greater appreciation) of the seemingly basic work that your lonely TI-84 or your more basic 4-function calculator can do for you in a matter of milliseconds. Make sure your calculator is fully charged and, to prevent losing it, always put your precious calculator back in its case.
 
-**If you enjoyed this article and want to learn more about how to get things done, check out our [article on minimizing procrastination](blog/minimizing-procrastination-to-get-more-done/).**
+**If you enjoyed this article and want to learn more about how to get things done, check out our [article on minimizing procrastination](/blog/minimizing-procrastination-to-get-more-done/).**

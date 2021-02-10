@@ -113,7 +113,7 @@ Phrases like “I do,” “I participate,” and “I was” suck the life out 
 - Structure
 - Organize
 
-These are just a small sampling that doesn’t fully represent every activity. [Here’s a more complete list[(https://www.indeed.com/career-advice/resumes-cover-letters/action-verbs-to-make-your-resume-stand-out)]. 
+These are just a small sampling that doesn’t fully represent every activity. [Here’s a more complete list](https://www.indeed.com/career-advice/resumes-cover-letters/action-verbs-to-make-your-resume-stand-out). 
 
 There’s no need to include complete sentences here. “I organized helpful meetings for other group members. I also led the team to our state competition in 2019 and won an impressive award for team spirit.” sounds contrived and lengthy. Instead, take out adjectives, and instead of sentences, use semicolons: “Organized meetings; led team to 2019 state competition; won team spirit award; recruited 20 more members; collaborated with president and secretary.”
 
@@ -141,13 +141,4 @@ When should you answer “No”? If the extracurricular in question has a natura
 
 The Common App activities section can add  spunk and spice to your application. What have you done? Where do you spend your time? What makes you special? I hope that these tips will help when the time comes to fill out your application. Until then, happy applying!
 
-
-
- 
-
-
-
-
-
-
-
+**Not ready to write your common app activities section yet? Check out [our post on how to improve your extracurriculars](/blog/improving-extracurriculars-for-college/)!**
