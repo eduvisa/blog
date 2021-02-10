@@ -64,6 +64,8 @@ insurance, weather forecasting, and more. Math really is everywhere. It
 controls how the world works and operates, and is useful no matter what
 field you end up in.
 
+**Want another amazing example of hidden math behind the scenes? Check out [our post on how calculators work](/blog/how-a-calculator-works).**
+
 ### **Works Cited**
 
 https://sciencing.com/uses-calculus-real-life-8524020.html

@@ -1,4 +1,4 @@
-I"72<p>Ah, our good ol’ friend, the calculator. Whether loading some dubious games at home onto your TI-84 or making sure you haven’t lost your grasp on reality by punching in 2 + 2, your calculator has always been there to support you every step of the way. Sometimes, though, you might wonder at the exceptional amount of complexity stored into a (relatively) small device - how does it fit that admittedly shoddy but playable Tetris game into that medley of wires and electronic circuits? How can it tell me what 1/(7 * sqrt(2pi)) * e^(-0.5 * (x - 3) / 7)^2 is in a matter of milliseconds? To answer these questions and many other curiosities regarding our humble calculator, let us dive deep into its mechanics.</p>
+I"82<p>Ah, our good ol’ friend, the calculator. Whether loading some dubious games at home onto your TI-84 or making sure you haven’t lost your grasp on reality by punching in 2 + 2, your calculator has always been there to support you every step of the way. Sometimes, though, you might wonder at the exceptional amount of complexity stored into a (relatively) small device - how does it fit that admittedly shoddy but playable Tetris game into that medley of wires and electronic circuits? How can it tell me what 1/(7 * sqrt(2pi)) * e^(-0.5 * (x - 3) / 7)^2 is in a matter of milliseconds? To answer these questions and many other curiosities regarding our humble calculator, let us dive deep into its mechanics.</p>
 
 <h2 id="whats-in-a-calculator">What’s In a Calculator?</h2>
 
@@ -146,5 +146,5 @@ By slapping any number of adders together, we can add any number of bits in a ri
 <img src="https://i.ibb.co/pxJbpVv/icanmultiply.png" alt="" />
 Hopefully, you’ve gained a greater understanding(and a greater appreciation) of the seemingly basic work that your lonely TI-84 or your more basic 4-function calculator can do for you in a matter of milliseconds. Make sure your calculator is fully charged and, to prevent losing it, always put your precious calculator back in its case.</p>
 
-<p><strong>If you enjoyed this article and want to learn more about how to get things done, check out our <a href="blog/minimizing-procrastination-to-get-more-done/">article on minimizing procrastination</a>.</strong></p>
+<p><strong>If you enjoyed this article and want to learn more about how to get things done, check out our <a href="/blog/minimizing-procrastination-to-get-more-done/">article on minimizing procrastination</a>.</strong></p>
 :ET
