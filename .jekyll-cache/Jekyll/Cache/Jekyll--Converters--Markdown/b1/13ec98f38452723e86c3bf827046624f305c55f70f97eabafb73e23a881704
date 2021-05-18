@@ -1,4 +1,4 @@
-I"J
+I"ùL
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
@@ -6,6 +6,10 @@
         <h2><span>Featured</span></h2>
     </div>
     <div class="row">
+
+    
+
+        
 
     
 
@@ -165,6 +169,53 @@
     </div>
 
     <div class="row listrecent">
+
+        
+
+        <!-- begin post -->
+<!--  -->
+
+
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/blog/ai-vs-humans-a-battle-for-the-ages/">
+                
+
+                    
+                        <img class="img-fluid" src="/blog/assets/images/ai-vs-humans.jpg" alt="AI vs. Humans - A Battle for the Ages" /> 
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/blog/ai-vs-humans-a-battle-for-the-ages/">AI vs. Humans - A Battle for the Ages</a>
+                
+            </h2>
+            <h4 class="card-text">Our world seems to be increasingly crafted and influenced by AI - otherwise known as artificial intelligence. Whether that be the various dubious recommendations made by Youtubeâ€™s seemingly finicky algorithm,...</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/blog/assets/images/avatars/briant.png" alt="Briant Kim" />
+                
+                </span>
+                <span class="author-meta">
+                <span class="post-name"><a target="_blank" href="">Briant Kim</a></span><br />
+                
+                <span class="post-date">18 May 2021</span>
+                </span>
+                <span class="post-read-more"><a href="/blog/ai-vs-humans-a-battle-for-the-ages/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
 
         
 
@@ -405,48 +456,6 @@ The Common App Activities section is the section where you can list your extracu
 
         
 
-        <!-- begin post -->
-<!--  -->
-
-
-<div class="col-lg-4 col-md-6 mb-30px card-group">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/blog/covid-19-schooling-mental-health/">
-                
-
-                    
-                        <img class="img-fluid" src="/blog/assets/images/2020-10-03-covid-19-schooling-mental-health_white.jpeg" alt="COVID-19 Schooling and Mental Health" /> 
-                    
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/blog/covid-19-schooling-mental-health/">COVID-19 Schooling and Mental Health</a>
-                
-            </h2>
-            <h4 class="card-text">By: Amy Tan, Crystal Widado, Ciara Balanza
-
-Edited by Phoebe Jeske
-</h4>
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                <span class="post-date">03 Oct 2020</span>
-                &lt;/span&gt;
-                <span class="post-read-more"><a href="/blog/covid-19-schooling-mental-health/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end post -->
-
-        
-
     </div>
 
 </section>
@@ -457,6 +466,26 @@ Edited by Phoebe Jeske
 <div class="pointerup"><i class="fa fa-caret-up"></i></div>
 <span class="navigation" role="navigation">
     
+<div class="pagination">
+  
+    <span>&laquo; Prev</span>
+  
+
+  
+    
+      <span class="ml-1 mr-1">1</span>
+    
+  
+    
+      <a class="ml-1 mr-1" href="/blog/page2/">2</a>
+    
+  
+
+  
+    <a class="ml-1 mr-1" href="/blog/page2/">Next &raquo;</a>
+  
+</div>
+
 </span>
 </div>
 
